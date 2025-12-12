@@ -3,136 +3,93 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>KahveMod — Kahve & Ekipman | Toptan ve Perakende</title>
-  <meta name="description" content="KahveMod — Taze çekirdekler, ekipmanlar ve kahve rehberleri. Kafe, restoran ve ev için kaliteli kahve ürünleri. Kahvemod.com'a göz atın."/>
+  <title>KahveMod — Kahve & Ekipman | Toptan & Perakende</title>
+  <meta name="description" content="KahveMod: Özenle seçilmiş kahve çekirdekleri, profesyonel ekipman ve toptan kahve çözümleri. Kafe, restoran ve işletmelere özel avantajlar."/>
   <link rel="canonical" href="https://kahvemod.com/">
 
   <!-- Open Graph -->
   <meta property="og:site_name" content="KahveMod"/>
   <meta property="og:title" content="KahveMod — Kahve & Ekipman"/>
-  <meta property="og:description" content="Taze çekirdekler, ekipmanlar ve kahve rehberleri. Kahvemod.com — Kahve tutkunlarının adresi."/>
+  <meta property="og:description" content="Taze çekirdek kahve, ekipman ve kurumsal çözümler. KahveMod — Kahve tutkunlarının adresi."/>
   <meta property="og:type" content="website"/>
-  <meta property="og:url" content="https://vehbikurtcebe.github.io"/>
+  <meta property="og:url" content="https://vehbikurtcebe.github.io/kahve"/>
   <meta property="og:image" content="https://kahvemod.com/wp-content/uploads/2025/placeholder-logo.png"/>
 
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:title" content="KahveMod — Kahve & Ekipman"/>
-  <meta name="twitter:description" content="Taze çekirdekler, ekipmanlar ve kahve rehberleri. Kahvemod.com — Kahve tutkunlarının adresi."/>
-  <meta name="twitter:image" content="https://kahvemod.com/wp-content/uploads/2025/placeholder-logo.png"/>
-
-  <!-- Minimal CSS -->
   <style>
     :root{
-      --brand:#6b3f18;
+      --brand:#4b2b14;
       --accent:#b76e20;
+      --bg:#f5f3ef;
       --muted:#777;
       --card:#fff;
-      --bg:#f7f5f3;
-      --maxw:980px;
+      --maxw:960px;
     }
     *{box-sizing:border-box}
-    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;color:#222;background:var(--bg);line-height:1.5}
-    .wrap{max-width:var(--maxw);margin:36px auto;padding:20px}
-    header{display:flex;gap:18px;align-items:center}
-    .logo{width:84px;height:84px;border-radius:8px;background:linear-gradient(135deg,var(--brand),#4b2b14);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:20px}
-    h1{margin:0;font-size:24px}
-    p.lead{color:var(--muted);margin:8px 0 18px}
-    .grid{display:grid;grid-template-columns:1fr;gap:18px}
-    .card{background:var(--card);padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
-    .two{display:flex;gap:12px;flex-wrap:wrap}
-    .btn{display:inline-block;background:var(--accent);color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:600}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:var(--bg);color:#222;line-height:1.55}
+    .wrap{max-width:var(--maxw);margin:auto;padding:32px 18px}
+    header{text-align:center;margin-bottom:36px}
+    .logo{width:96px;height:96px;margin:auto;border-radius:12px;background:linear-gradient(135deg,var(--brand),#2d180c);display:flex;align-items:center;justify-content:center;color:#fff;font-size:28px;font-weight:700}
+    h1{margin:18px 0 8px;font-size:30px}
+    .lead{color:var(--muted);margin:0 auto;max-width:640px}
+
+    .card{background:var(--card);padding:22px;border-radius:12px;box-shadow:0 6px 20px rgba(0,0,0,0.06);margin-bottom:22px}
+    h2,h3{margin-top:0}
+
+    .btn{background:var(--accent);color:#fff;text-decoration:none;padding:12px 18px;border-radius:8px;display:inline-block;font-weight:600}
     a{color:var(--brand)}
-    footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center}
 
-    ul{margin:8px 0 0;padding-left:20px}
-    @media(min-width:760px){
-      .grid{grid-template-columns:1fr 360px}
-      h1{font-size:28px}
-    }
+    footer{text-align:center;margin-top:32px;font-size:13px;color:var(--muted)}
   </style>
-
-  <!-- Schema.org Organization -->
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"Organization",
-    "name":"KahveMod",
-    "url":"https://kahvemod.com",
-    "logo":"https://kahvemod.com/wp-content/uploads/2025/placeholder-logo.png",
-    "sameAs":[
-      "https://www.instagram.com/kahvemod",
-      "https://www.facebook.com/kahvemod"
-    ],
-    "contactPoint":[{"@type":"ContactPoint","contactType":"customer service","email":"info@kahvemod.com","telephone":"+90-xxx-xxx-xxxx","areaServed":"TR"}]
-  }
-  </script>
 </head>
 <body>
-  <div class="wrap" role="main">
-    <header>
-      <div class="logo" aria-hidden="true">KM</div>
-      <div>
-        <h1>KahveMod — Kahve & Ekipman</h1>
-        <p class="lead">Taze çekirdekler, profesyonel ekipmanlar ve kahve rehberleri. Kafe ve işletmelere toptan çözümler.</p>
-      </div>
-    </header>
+<div class="wrap">
 
-    <main class="grid" aria-label="KahveMod tanıtım">
-      <section class="card" id="about">
-        <h2>Hızlı Bakış</h2>
-        <p>KahveMod; kaliteli çekirdek, demleme ekipmanı ve barista araçları sunan bir e-ticaret platformudur. İşletmelere toptan ambalaj seçenekleri ve kurumsal çözümler sağlıyoruz.</p>
+  <header>
+    <div class="logo">KM</div>
+    <h1>KahveMod — Kahve & Profesyonel Ekipman</h1>
+    <p class="lead">Kafe, restoran ve işletmelere özel taze çekirdek kahve, ekipman ve toptan çözümler.</p>
+  </header>
 
-        <h3>Öne Çıkan Kategoriler</h3>
-        <ul>
-          <li>Kahve: Single origin, blend, espresso çekirdekler</li>
-          <li>Makineler: Espresso profesyonel, filtre makineleri</li>
-          <li>Demleme & Aksesuar: V60, Chemex, French Press, öğütücüler</li>
-        </ul>
+  <section class="card">
+    <h2>KahveMod Hakkında</h2>
+    <p>KahveMod, Türkiye’de üçüncü nesil kahve kültürünü benimseyerek hem bireysel tüketicilere hem de profesyonel işletmelere yüksek kaliteli kahve çekirdekleri ve ekipmanlar sunar. Markamız; seçili single origin kahveler, espresso profilleri, kavurma tazeliği ve işletmelere özel toptan ambalaj seçenekleriyle hizmet verir.</p>
+    <p>Sitemizi ziyaret ederek ürün yelpazemizi inceleyebilir ve işletmeniz için fiyat teklifi alabilirsiniz.</p>
+    <p><a class="btn" href="https://kahvemod.com" target="_blank">kahvemod.com'u ziyaret et</a></p>
+  </section>
 
-        <div style="margin-top:14px">
-          <a class="btn" href="https://kahvemod.com" target="_blank" rel="noopener">kahvemod.com'u ziyaret et</a>
-        </div>
-      </section>
+  <section class="card">
+    <h2>Ürün ve Kategori Öne Çıkanlar</h2>
+    <ul>
+      <li><strong>Kahve Çekirdekleri:</strong> Single origin, blend, espresso profilleri</li>
+      <li><strong>Demleme Ekipmanları:</strong> V60, Chemex, French Press, Aeropress</li>
+      <li><strong>Öğütücüler & Makineler:</strong> Ev tipi ve profesyonel seçenekler</li>
+      <li><strong>Toptan Çözümler:</strong> 1 kg ve 2.5 kg paket seçenekleri</li>
+    </ul>
+  </section>
 
-      <aside class="card" aria-label="İletişim ve hızlı linkler">
-        <h3>Hızlı Linkler</h3>
-        <div class="two">
-          <div>
-            <strong>İletişim</strong>
-            <p style="margin:6px 0 0">E-posta: <a href="mailto:info@kahvemod.com">info@kahvemod.com</a><br>Tel: +90-(XXX)-XXX-XXXX</p>
-          </div>
-          <div>
-            <strong>Sosyal</strong>
-            <p style="margin:6px 0 0"><a href="https://www.instagram.com/kahvemod" target="_blank">Instagram</a><br><a href="https://www.facebook.com/kahvemod" target="_blank">Facebook</a></p>
-          </div>
-        </div>
+  <section class="card">
+    <h2>KahveMod İletişim</h2>
+    <p><strong>E-posta:</strong> <a href="mailto:info@kahvemod.com">info@kahvemod.com</a><br>
+       <strong>Instagram:</strong> <a href="https://instagram.com/kahvemod" target="_blank">instagram.com/kahvemod</a></p>
+  </section>
 
-        <hr style="margin:12px 0;border:none;border-top:1px solid #eee">
+  <section class="card">
+    <h2>Backlink Kullanım Önerileri</h2>
+    <ul>
+      <li>“Hakkımızda”, “İş Ortakları”, “Basın” veya “Kaynaklar” sayfasından link verebilirsiniz.</li>
+      <li>Bu sayfa markanın resmi tanıtım sayfası olarak optimize edilmiştir.</li>
+      <li>Sektörel bloglar, ürün inceleme siteleri ve kafe rehberlerinde referans sayfası olarak kullanılabilir.</li>
+    </ul>
+  </section>
 
-        <h4>Backlink için öneriler</h4>
-        <ul>
-          <li>Bu sayfayı profile / about sayfası olarak kullan — link verildiğinde güven artar.</li>
-          <li>Basın bülteni, kafe iş ortakları sayfaları ve sektör dizinleriyle paylaş.</li>
-          <li>Paylaşımlarda OG görsel kullan; görsel hazır değilse logo linkini güncelle.</li>
-        </ul>
-      </aside>
+  <footer>
+    © <span id="year"></span> KahveMod — kahvemod.com
+  </footer>
 
-      <section class="card" style="grid-column:1/-1">
-        <h2>Kısa Kahve Rehberi</h2>
-        <p>Kahve seçimi; çekirdek türü (Arabica/Robusta), kavurma (light/medium/dark) ve kavurma profiline göre değişir. Doğru ekipmanla demlediğinizde aynı çekirdek farklı lezzet katmanları sunar.</p>
-        <p style="margin-top:10px">Daha fazla içerik ve ürün için ana siteye göz atın: <a href="https://kahvemod.com" target="_blank">kahvemod.com</a></p>
-      </section>
-    </main>
+</div>
 
-    <footer>
-      © <span id="year"></span> KahveMod — <a href="https://kahvemod.com" target="_blank">kahvemod.com</a>
-    </footer>
-  </div>
-
-  <script>
-    // Küçük JS: yıl otomatik
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
